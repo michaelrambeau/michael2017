@@ -1,0 +1,24 @@
+{
+  "name": "michael-rambeau-website",
+  "description": "Michael Rambeau's website",
+  "version": "1.0.0",
+  "author": "Michael Rambeau",
+  "dependencies": {
+    "gatsby": "^0.12.45",
+    "object-assign": "^4.1.1",
+    "octicons": "^5.0.1",
+    "react-helmet": "^5.0.3",
+    "react-typography": "^0.15.0",
+    "typography": "^0.15.8",
+    "typography-breakpoint-constants": "^0.14.0",
+    "typography-plugin-code": "^0.15.9"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public",
+    "start": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"pages/*.js\" \"utils/*.js\" \"wrappers/*.js\" \"html.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
