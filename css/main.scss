@@ -23,18 +23,14 @@ body {
   background-color: white;
   padding: 2rem;
   margin-bottom: 2rem;
-  // background-image: url(./triangle.svg);
-  // background-position: 0 0;
-  // background-size: 100% 100%;
 }
 
 .tag {
-  background-color: #f7cf4f;
+  background-color: #FFDE74;
   display: inline-block;
   padding: 0.5rem 1rem;
   background-image: url(./triangle.svg);
-  background-position: 0 0;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .main-document {
@@ -44,8 +40,7 @@ body {
 }
 
 a {
-  color: #357da7;
-  color: #cc4700;
+  color: #225E94;
   text-decoration: none;
   &:hover {
     text-decoration: underline;;
