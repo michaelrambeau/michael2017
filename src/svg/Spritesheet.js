@@ -5,16 +5,22 @@ import React from 'react'
 const spritesheet = () => (
   <svg style={{ display: 'none' }}>
     <defs>
-      <g id="facebook" dangerouslySetInnerHTML={{ __html: require('!raw!./facebook.svg') }} />
-      <g id="github" dangerouslySetInnerHTML={{ __html: require('!raw!./github.svg') }} />
-      <g id="linkedin" dangerouslySetInnerHTML={{ __html: require('!raw!./linkedin.svg') }} />
-      <g id="person" dangerouslySetInnerHTML={{ __html: require('!raw!./person.svg') }} />
+      <Icon id="facebook" path="social" />
+      <Icon id="github" path="social" />
+      <Icon id="linkedin" path="social" />
+      <Icon id="person" path="icons" />
+      <Icon id="react" path="logos" />
+      <Icon id="nodejs" path="logos" />
       <Octicon id="home" />
       <Octicon id="mail" />
       <Octicon id="calendar" />
       <Octicon id="globe" />
     </defs>
   </svg>
+)
+
+const Icon = ({ id, path }) => (
+  <g id={id} dangerouslySetInnerHTML={{ __html: require(`!raw!./${path}/${id}.svg`) }} />
 )
 
 const Octicon = ({ id }) => (

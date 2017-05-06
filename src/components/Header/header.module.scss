@@ -37,7 +37,7 @@
   text-decoration: none;
   transition: all 0.3s;
   border-bottom: 3px solid transparent;
-  &:hover {
+  &:hover:not(.activeNavLink) {
     border-bottom: 3px solid #f7cf4f;
     text-decoration: none;
   }
@@ -47,5 +47,5 @@
 }
 
 .activeNavLink {
-  border-bottom: 3px solid #f7cf4f;
+  border-bottom: 3px dotted #f7cf4f;
 }

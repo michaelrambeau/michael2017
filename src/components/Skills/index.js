@@ -8,10 +8,12 @@ const Skills = () => (
     <Card
       title="Front-end"
       skills={data.frontend}
+      icon="react"
     />
     <Card
       title="Back-end"
       skills={data.backend}
+      icon="nodejs"
     />
   </div>
 )

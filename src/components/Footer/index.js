@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialNav from '../core/SocialNav'
+import SocialNav from '../SocialNav'
 import styles from './footer.module.sass'
 
 const Footer = () => (

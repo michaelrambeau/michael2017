@@ -13,19 +13,22 @@ import '../css/helpers.sass'
 import '../css/print.sass'
 
 module.exports = React.createClass({
-  propTypes() {
+  propTypes () {
     return {
-      children: React.PropTypes.any,
+      children: React.PropTypes.any
     }
   },
-  render() {
+  render () {
     return (
       <div id="site-layout">
         <Helmet
           title={config.siteTitle}
           meta={[
-            { name: "description", content: "Michael Rambeau, web developer in Osaka, Japan" },
-            { name: "keywords", content: "React, node.js microservices" },
+            {
+              name: 'description',
+              content: 'Michael Rambeau, web development expert in Osaka, Japan. Specialities: HTML5, React, Redux, node.js microservices, Responsive Web Design.'
+            },
+            { name: 'keywords', content: 'Osaka, React, node.js microservices' }
           ]}
         />
         <Spritesheet />

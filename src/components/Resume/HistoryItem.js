@@ -15,11 +15,11 @@ const HistoryItem = ({ item }) => (
   <div className={styles.experience}>
     <header>
       <div className="date">
-        <Icon id="calendar" width={20} />
+        <Icon id="calendar" className="svg-icon" />
         {getDate(item)}
       </div>
       <div className={styles.location}>
-        <Icon id="globe" width={20} />
+        <Icon id="globe" className="svg-icon" />
         {item.location}
       </div>
     </header>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import t from '../../utils/typography'
 import styles from './header.module.scss'
-import SocialNav from '../core/SocialNav'
+// import SocialNav from '../core/SocialNav'
 
 const NavLink = ({ path, children }) => (
   <Link

@@ -1,12 +1,18 @@
 const data = {
   frontend: [
-    'Strong background on JavaScript, html, css',
-    'Huge fan of Single Page Applications and React eco-system',
-    'Responsive Design'
+    'Strong background on JavaScript ES6, HTML, CSS',
+    'Single Page Applications with React eco-system and Server-Side Rendering',
+    'State management with Redux, using Functional Programming concepts',
+    'Mobile-first applications using Responsive Web Design',
+    'Web performance optimization techniques'
   ],
   backend: [
-    'node.js microservices',
-    'MongoDB Databases'
+    'node.js eco-system: API, microservices, building tools...',
+    'Databases: MongoDB'
+  ],
+  fullstack: [
+    'Meteor framework',
+    'Unit testing'
   ],
   mobile: [
     'Cordova',
