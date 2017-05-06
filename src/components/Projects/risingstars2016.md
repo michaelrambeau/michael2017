@@ -8,9 +8,9 @@ The article, published in January 2017 was quite popular, I got 150,000 page vie
 
 The article was featured in the JavaScript newsletter [JavaScript Weekly](http://javascriptweekly.com/issues/318) in January 2017.
 
-<!-- [![image](https://cloud.githubusercontent.com/assets/5546996/22129924/4f5876ce-deec-11e6-810a-a0b012fe465c.png)](http://javascriptweekly.com/issues/318) -->
+[![image](https://cloud.githubusercontent.com/assets/5546996/22129924/4f5876ce-deec-11e6-810a-a0b012fe465c.png)](http://javascriptweekly.com/issues/318)
 
-Also available in:
+The article has been translated in 2 languages by several contributors:
 
 * [Japanese](https://risingstars2016.js.org/ja/): "JavaScript ベスト・オブ・ザ・イヤー 2016"
 * [Chinese](https://risingstars2016.js.org/zh/): "2016 年崛起的 JS 项目"

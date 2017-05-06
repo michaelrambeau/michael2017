@@ -2,14 +2,19 @@
 
 ### Concept
 
-[bestof.js.org](http://bestof.js.org/about) gathers every day the latest trends about open source projects related to node.js and the web platform: JavaScript of course , client and server side, but also html, css...
+[bestof.js.org](http://bestof.js.org/about) gathers every day the latest trends about open source projects related to node.js and the web platform: JavaScript of course also HTML and CSS.
 
 ### Background: why bestof.js.org?
 
-Javascript, HTML and CSS are advancing faster than ever, we are going fullspeed on innovation.
+JavaScript and web technologies are advancing faster than ever, we are going full-speed on innovation.
 Amazing open-source projects are released almost everyday, so it's hard to keep up-to-date about the trends.
 
-This is why I build [bestof.js.org](http://bestof.js.org/), I wanted a way to check every easily the most relevant projects.
+* What are the most popular projects right now, over the last weeks or over the last months?
+* What are the most relevant projects related to a given tag: the best framework? The best testing tools?
+
+To answer those questions, I built [bestof.js.org](http://bestof.js.org/).
+
+Every day, bestof.js.org aggregate data from Github stars for more than 800 projects related to the web technologies.
 
 In addition, I wanted to keep on learning about the latest technologies and the good practices, building a **real-world** application.
 
@@ -22,3 +27,7 @@ In addition, I wanted to keep on learning about the latest technologies and the 
 * Cloud services:
   * [Auth0](https://auth0.com/): Authentication as a service, to let Github users contribute to the project
   * [mLab](https://mlab.com/): MongoDB Database-as-a-Service, used to store data related to projects
+  * [SemaphoreCI](https://semaphoreci.com/) CI Server used to trigger every day build process
+* Micro services
+  * [webtask.io](https://webtask.io/)
+  * [zeit.co/now](https://zeit.co/now)
