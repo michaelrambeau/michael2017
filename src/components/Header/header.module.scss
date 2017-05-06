@@ -37,9 +37,11 @@
   text-decoration: none;
   transition: all 0.3s;
   border-bottom: 3px solid transparent;
-  &:hover:not(.activeNavLink) {
-    border-bottom: 3px solid #f7cf4f;
+  &:hover{
     text-decoration: none;
+    &:not(.activeNavLink) {
+      border-bottom: 3px solid #f7cf4f;
+    }
   }
   &:not(:last-child) {
     margin-right: 1rem;

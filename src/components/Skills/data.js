@@ -7,7 +7,7 @@ const data = {
     'Web performance optimization techniques'
   ],
   backend: [
-    'node.js eco-system: API, microservices, building tools...',
+    'node.js eco-system: API, microservices, testing, building tools...',
     'Databases: MongoDB'
   ],
   fullstack: [
