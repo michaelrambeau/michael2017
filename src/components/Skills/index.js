@@ -1,5 +1,4 @@
 import React from 'react'
-import data from './data'
 import Card from './SkillCard'
 import frontend from './frontend.md'
 import backend from './backend.md'
