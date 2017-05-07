@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../svg/Logo'
+import Logo from '../../../svg/Logo'
 import styles from './skills.module.sass'
 
 const SkillCard = ({ title, skills, icon }) => (
