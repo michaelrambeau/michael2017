@@ -1,7 +1,7 @@
 const history = [
   {
     id: 'BENTO&CO',
-    title: 'Full-stack Web engineer at Bento&Co',
+    title: 'Full-stack Web engineer at [Bento&Co](https://www.bentoandco.com/)',
     from: '2016',
     to: 'Present',
     location: 'Kyoto, Japan',
@@ -12,7 +12,7 @@ const history = [
     ]
   }, {
     id: 'FIRSTSERVER',
-    title: 'Web developer / UI-UX specialist at FirstServer',
+    title: 'Web developer / UI-UX specialist at [FirstServer](https://www.firstserver.co.jp/milestones/)',
     from: '2014',
     to: '2016',
     duration: '18 months',
@@ -25,7 +25,7 @@ const history = [
     ]
   }, {
     id: 'BRASTEL',
-    title: 'Web developer at Brastel Telecom',
+    title: 'Web developer at [Brastel Telecom](http://www.brastel.com/)',
     from: '2011',
     to: '2014',
     duration: '3 years',

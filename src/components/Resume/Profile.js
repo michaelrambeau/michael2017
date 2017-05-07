@@ -6,10 +6,10 @@ import styles from './resume.module.sass'
 const Profile = () => (
   <div style={{ display: 'flex' }}>
     <div style={{ flexGrow: 1 }}>
-      <h1>Resume</h1>
+      <h1>Full-stack web engineer</h1>
       <div className={styles.profileGrid}>
         <Icon id="person" className={styles.profileIcon} />
-        <p>Michael Rambeau, 40 years old, French, IT engineer</p>
+        <p>Michael Rambeau, 40 years old, French</p>
       </div>
       <p className={styles.profileGrid}>
         <Icon id="home" className={styles.profileIcon} />

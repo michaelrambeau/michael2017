@@ -23,7 +23,9 @@ const HistoryItem = ({ item }) => (
         {item.location}
       </div>
     </header>
-    <h3>{item.title}</h3>
+    <h3
+      dangerouslySetInnerHTML={{ __html: md.render(item.title) }}
+    />
     {item.resp && (
       <p
         dangerouslySetInnerHTML={{ __html: md.render(item.resp) }}
