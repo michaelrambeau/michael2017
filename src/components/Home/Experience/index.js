@@ -8,7 +8,7 @@ const Experience = () => (
     <div className="card">
       <div dangerouslySetInnerHTML={{ __html: experience.body }} />
       <div style={{ textAlign: 'center' }}>
-        <Link to="/resume/">Check Michael Rambeau's resume</Link>
+        For more details, check <Link to="/resume/">Michael Rambeau's resume</Link>
       </div>
     </div>
   </div>
