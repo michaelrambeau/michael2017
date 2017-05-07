@@ -8,13 +8,10 @@ const SkillCard = ({ title, skills, icon }) => (
       <span className="tag">{title}</span>
     </p>
     <div className={styles.grid}>
-      <div className={styles.main}>
-        <ul>
-          {skills.map((skill, i) => (
-            <li key={i}>{skill}</li>
-          ))}
-        </ul>
-      </div>
+      <div
+        className={styles.main}
+        dangerouslySetInnerHTML={{ __html: skills.body }}
+      />
       <div className={styles.logo}>
         <Logo id={icon} className="svg-logo" />
       </div>
