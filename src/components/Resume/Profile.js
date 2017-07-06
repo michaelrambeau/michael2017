@@ -1,7 +1,9 @@
 import React from 'react'
+
 import Icon from '../../svg/Icon'
 import img from './michael-2017-400x400.png'
 import styles from './resume.module.sass'
+import data from '../../data/core.json'
 
 const Profile = () => (
   <div style={{ display: 'flex' }}>
@@ -17,7 +19,7 @@ const Profile = () => (
       </p>
       <p className={styles.profileGrid}>
         <Icon id="mail" className={styles.profileIcon} />
-        <a className="email" href="mailto:michael.rambeau@gmail.com">michael.rambeau@gmail.com</a>
+        <a className="email" href={`mailto:${data.email}`}>{data.email}</a>
       </p>
     </div>
     <div>

@@ -2,7 +2,7 @@ import React from 'react'
 import proficiencies from './data/proficiencies'
 
 const Proficiencies = () => (
-  <div>
+  <div className="break-after">
     <h2>Technical proficiencies</h2>
     <ul>
       {proficiencies.map((item, i) => (
