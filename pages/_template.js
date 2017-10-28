@@ -1,9 +1,9 @@
-import React from "react"
-import { Link } from "react-router"
-import { prefixLink } from "gatsby-helpers"
-import Helmet from "react-helmet"
-import { config } from "config"
-import t from "../src/utils/typography"
+import React from 'react'
+import { Link } from 'react-router'
+import { prefixLink } from 'gatsby-helpers'
+import Helmet from 'react-helmet'
+import { config } from 'config'
+import t from '../src/utils/typography'
 import Header from '../src/components/Header'
 import Footer from '../src/components/Footer'
 import Spritesheet from '../src/svg/Spritesheet'
@@ -13,12 +13,12 @@ import '../css/helpers.sass'
 import '../css/print.sass'
 
 module.exports = React.createClass({
-  propTypes () {
+  propTypes() {
     return {
       children: React.PropTypes.any
     }
   },
-  render () {
+  render() {
     return (
       <div id="site-layout">
         <Helmet
@@ -26,7 +26,8 @@ module.exports = React.createClass({
           meta={[
             {
               name: 'description',
-              content: 'Michael Rambeau, web development expert in Osaka, Japan. Specialities: HTML5, React, Redux, node.js microservices, Responsive Web Design.'
+              content:
+                'Michael Rambeau, web development expert in Osaka, Japan. Specialities: HTML5, React, Redux, node.js microservices, Responsive Web Design.'
             },
             { name: 'keywords', content: 'Osaka, React, node.js microservices' }
           ]}
@@ -37,9 +38,7 @@ module.exports = React.createClass({
           id="site-content"
           style={{
             margin: `0 auto`,
-            maxWidth: 960,
-            padding: `${t.rhythm(1)} ${t.rhythm(3 / 4)}`,
-            paddingTop: t.rhythm(1)
+            maxWidth: 960
           }}
         >
           {this.props.children}
