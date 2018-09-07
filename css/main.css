@@ -47,9 +47,10 @@ body {
 a {
   color: #225e94;
   text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .octicon {

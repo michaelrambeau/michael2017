@@ -1,22 +1,36 @@
-import React from 'react'
-import Logo from '../../../svg/Logo'
-import styles from './skills.module.sass'
+import React from "react";
+import styled from "styled-components";
+
+import Logo from "../../../svg/Logo";
+
+const Grid = styled.div`
+  @media (max-width: 499px) {
+    display: flex {
+      flex-direction: column;
+    }
+  }
+`;
+
+const MainCell = styled.div`
+  flex-grow: 1;
+`;
+
+const LogoCell = styled.div`
+  @media (max-width: $break) margin-top: 2rem;
+`;
 
 const SkillCard = ({ title, skills, icon }) => (
   <div className="SkillCard card">
     <p className="header">
       <span className="tag">{title}</span>
     </p>
-    <div className={styles.grid}>
-      <div
-        className={styles.main}
-        dangerouslySetInnerHTML={{ __html: skills.body }}
-      />
-      <div className={styles.logo}>
+    <Grid>
+      <MainCell dangerouslySetInnerHTML={{ __html: skills.body }} />
+      <LogoCell>
         <Logo id={icon} className="svg-logo" />
-      </div>
-    </div>
+      </LogoCell>
+    </Grid>
   </div>
-)
+);
 
-export default SkillCard
+export default SkillCard;

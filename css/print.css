@@ -1,0 +1,18 @@
+@media print {
+  .hidden-print {
+    display: none;
+  }
+  .break-after {
+    page-break-after: always;
+  }
+  #site-content {
+    padding: 0;
+  }
+  .main-document {
+    box-shadow: none;
+  }
+  body {
+    background-color: #fff;
+    background: none;
+  }
+}

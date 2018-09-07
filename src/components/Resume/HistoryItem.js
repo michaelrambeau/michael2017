@@ -1,47 +1,59 @@
-import React from 'react'
-import styles from './resume.module.sass'
-import Icon from '../../svg/Icon'
-import Markdown from 'markdown-it'
+import React from "react";
+import styled from "styled-components";
 
-const md = new Markdown()
+import Icon from "../../svg/Icon";
+import Markdown from "markdown-it";
 
-const getDate = (item) => {
-  const year = item.from === item.to ? item.from : `${item.from} ⇒ ${item.to}`
-  const duration = item.duration ? ` (${item.duration})` : ''
-  return `${year}${duration}`
-}
+const md = new Markdown();
+
+const getDate = item => {
+  const year = item.from === item.to ? item.from : `${item.from} ⇒ ${item.to}`;
+  const duration = item.duration ? ` (${item.duration})` : "";
+  return `${year}${duration}`;
+};
+
+const Experience = styled.div`
+  padding-left: 1rem;
+  border-left: solid 3px #f5bc06;
+  margin-bottom: 2.5rem;
+  header {
+    display: flex;
+    color: #b58d10;
+  }
+  header > div {
+    flex: 0 0 50%;
+    display: flex;
+  }
+`;
+
+const Location = styled.div`
+  justify-content: flex-end;
+`;
 
 const HistoryItem = ({ item }) => (
-  <div className={styles.experience}>
+  <Experience>
     <header>
       <div className="date">
         <Icon id="calendar" className="svg-icon" />
         {getDate(item)}
       </div>
-      <div className={styles.location}>
+      <Location>
         <Icon id="globe" className="svg-icon" />
         {item.location}
-      </div>
+      </Location>
     </header>
-    <h3
-      dangerouslySetInnerHTML={{ __html: md.render(item.title) }}
-    />
+    <h3 dangerouslySetInnerHTML={{ __html: md.render(item.title) }} />
     {item.resp && (
-      <p
-        dangerouslySetInnerHTML={{ __html: md.render(item.resp) }}
-      />
+      <p dangerouslySetInnerHTML={{ __html: md.render(item.resp) }} />
     )}
     {item.points && (
       <ul>
         {item.points.map((point, i) => (
-          <li
-            key={i}
-            dangerouslySetInnerHTML={{ __html: md.render(point) }}
-          />
+          <li key={i} dangerouslySetInnerHTML={{ __html: md.render(point) }} />
         ))}
       </ul>
     )}
-  </div>
-)
+  </Experience>
+);
 
-export default HistoryItem
+export default HistoryItem;

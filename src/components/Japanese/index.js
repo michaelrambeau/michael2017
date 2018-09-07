@@ -1,17 +1,20 @@
-import React from 'react'
+import React from "react";
+import styled from "styled-components";
 
-import Intro from './Intro'
-import History from './History'
-import Skillsheet from './Skillsheet'
+import Intro from "./Intro";
+import History from "./History";
+import Skillsheet from "./Skillsheet";
 
-import styles from './styles.sass'
+const Div = styled.div`
+  font-family: sans-serif;
+`;
 
 const Japanese = () => (
-  <div className={`${styles.japanese}`}>
+  <Div>
     <Intro />
     <History />
     <Skillsheet />
-  </div>
-)
+  </Div>
+);
 
-export default Japanese
+export default Japanese;

@@ -14,4 +14,4 @@ HTML, Javascript ES6, React, Redux, CSS, Responsive Web Design の仕事をし�
 
 現在、Meteorフレームワークとnode.jsで、[shipandco.com](https://www.shipandco.com/)というWEBアプリケーションを開発しています。
 
-最先端のウェブテクノロジーに関心があるので、open source bestof.js.orgというWEBプリケーションを作りました。
+最先端のウェブテクノロジーに関心があるので、open source bestofjs.orgというWEBプリケーションを作りました。

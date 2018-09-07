@@ -1,0 +1,21 @@
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.svg-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  margin-right: 3px;
+}
+.svg-logo {
+  width: 100%;
+  height: auto;
+}
+.card li:last-child,
+.card ul:last-child {
+  margin-bottom: 0;
+}
