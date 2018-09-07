@@ -34,7 +34,12 @@ module.exports = React.createClass({
               content: "Osaka, React, node.js micro-services"
             }
           ]}
-        />
+        >
+          <link
+            href="https://fonts.googleapis.com/css?family=Lato"
+            rel="stylesheet"
+          />
+        </Helmet>
         <Spritesheet />
         <Header location={this.props.location} />
         <div

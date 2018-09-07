@@ -12,7 +12,8 @@
 body {
   background-color: #eeece5;
   background: linear-gradient(125deg, #eeece5, #f3f3f3 41%, #ededed 0, #fff);
-  color: #333;
+  color: rgb(34, 34, 34);
+  font-family: Lato, sans-serif;
 }
 
 .container {
@@ -24,17 +25,6 @@ body {
   background-color: white;
   padding: 1.45rem;
   margin-bottom: 2rem;
-}
-
-.tag {
-  font-family: sans-serif;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  background-color: #ffde74;
-  display: inline-block;
-  padding: 0.25rem 0.5rem;
-  background-image: url(./triangle.svg);
-  background-size: 100%;
 }
 
 .main-document {

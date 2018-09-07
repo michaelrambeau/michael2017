@@ -10,6 +10,7 @@ const StyledNavLink = styled(Link)`
   transition: all 0.3s;
   border-bottom: 3px solid transparent;
   font-family: sans-serif;
+  &.active,
   &:hover {
     text-decoration: none;
     &:not(.activeNavLink) {
@@ -23,7 +24,7 @@ const StyledNavLink = styled(Link)`
 
 const NavLink = ({ path, children }) => (
   <StyledNavLink
-    activeClassName={"??"}
+    activeClassName={"active"}
     to={path}
     onlyActiveOnIndex={path === "/"}
   >
