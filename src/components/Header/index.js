@@ -9,7 +9,6 @@ const StyledNavLink = styled(Link)`
   text-decoration: none;
   transition: all 0.3s;
   border-bottom: 3px solid transparent;
-  font-family: sans-serif;
   &.active,
   &:hover {
     text-decoration: none;
@@ -34,19 +33,38 @@ const NavLink = ({ path, children }) => (
 
 const StyledHeader = styled.header`
   background-color: white;
+  /* background: linear-gradient(90deg, #ffde74, #ffde74 50%, white 50%, #fff); */
 `;
 
 const Title = styled.div`
   flex-grow: 1;
   display: flex;
   align-items: center;
-  font-family: sans-serif;
+  padding: 0.5rem 0;
+  a {
+    color: #f6ce4e;
+    z-index: 1;
+  }
+  /*position: relative;
+  &:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #f7cf4f;
+    transform: skew(-35deg, 0);
+    transform-origin: 0 0;
+    left: 0;
+    width: 180px;*/
+  }
 `;
 
 const Navbar = styled.div`
   display: flex;
+  background-color: white;
   a {
-    color: #222;
+    color: #302d2f;
     text-decoration: none;
   }
   @media (max-width: 600px) {
@@ -63,7 +81,7 @@ const Header = () => {
     <StyledHeader className="hidden-print">
       <div
         className="container"
-        style={{ padding: `${t.rhythm(0.75)} ${t.rhythm(3 / 4)}` }}
+        style={{ padding: `${t.rhythm(0)} ${t.rhythm(3 / 4)}` }}
       >
         <Navbar>
           <Title>

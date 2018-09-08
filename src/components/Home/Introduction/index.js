@@ -1,15 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router'
+import React from "react";
+import { Link } from "react-router";
 
-import introduction from './introduction.md'
+import introduction from "./introduction.md";
 
 const Intro = () => {
-  return (
-    <div>
-      <div dangerouslySetInnerHTML={{ __html: introduction.body }} />
-      <p>Check <Link to="/projects/">my projects</Link> to see what I can do and how enthusiast I am!</p>
-    </div>
-  )
-}
+  return <div dangerouslySetInnerHTML={{ __html: introduction.body }} />;
+};
 
-export default Intro
+export default Intro;
