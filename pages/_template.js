@@ -27,11 +27,11 @@ module.exports = React.createClass({
             {
               name: "description",
               content:
-                "Michael Rambeau, web development expert in Osaka, Japan. Specialties: HTML5, React, Redux, node.js micro-services, Responsive Web Design."
+                "Michael Rambeau, full-stack web development expert in Osaka, Japan. Specialties: HTML5, React, Redux, node.js micro-services, Responsive Web Design."
             },
             {
               name: "keywords",
-              content: "Osaka, React, node.js micro-services"
+              content: "Osaka, React, Node.js micro-services"
             }
           ]}
         >

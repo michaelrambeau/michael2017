@@ -4,14 +4,18 @@
 
 2011年ブラステル株式会社に入社。
 
-BrastelRemitという　新しい海外送金サービスがリリースされ、私は[BrastelRemit](https://brastelremit.jp/)のWEBサイトの担当でした。
+「BrastelRemit」 という　新しい海外送金サービスがリリースされ、私は[Brastel Remit](https://brastelremit.jp/)の WEB サイトの担当でした。
 
 2014年ファーストサーバ株式会社に入社。
 
-HTML, Javascript ES6, React, Redux, CSS, Responsive Web Design の仕事をしました。
+HTML, JavaScript ES6, React, Redux, CSS, Responsive Web Design の仕事をしました。
 
-カスタマーポータルのUI/UXの担当でした。
+カスタマーポータルの UI/UX の担当でした。
 
-現在、Meteorフレームワークとnode.jsで、[shipandco.com](https://www.shipandco.com/)というWEBアプリケーションを開発しています。
+2016年から2018まで、MeteorフレームワークとNode.jsで、[Shipandco](https://www.shipandco.com/)という WEB アプリケーションを開発しました。
 
-最先端のウェブテクノロジーに関心があるので、open source bestofjs.orgというWEBプリケーションを作りました。
+2018年に[Pactera](http://jp.pactera.com/ja)に入社しました。
+Reactで作られたWEBアプリケーションについて、Code Reviewと開発をしています。
+チームメンバーに、JavaScript, ES6, とReactについてGood Practicesを教えました。
+
+最先端のウェブテクノロジーに関心があるので、open source [Best of JavaScript](https://bestofjs.org/) という WEB プリケーションを作りました。

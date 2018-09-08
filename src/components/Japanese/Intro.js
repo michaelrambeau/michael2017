@@ -10,7 +10,7 @@ const Intro = () => (
       <div style={{ flexGrow: 1 }}>
         <h1>履歴書 / プロフィール</h1>
         <p>Michael Rambeau ミカエル　ランボー</p>
-        <p>WEB開発エンジニア41 歳</p>
+        <p>WEB開発エンジニア41歳</p>
         <p>
           【WEBサイト】
           <a href={data.website}>{data.website}</a>

@@ -2,7 +2,7 @@
 
 At the end of 2016, I wanted to share data and analysis about the main trends related to the JavaScript world.
 
-So I wrote an article called "Rising Stars 2016", providing graphs about Github stars and writing an analysis split into 10 categories: front-end frameworks, mobile, testing, node.js, tooling, IDE...
+So I wrote an article called "Rising Stars 2016", providing graphs about Github stars and writing an analysis split into 10 categories: front-end frameworks, mobile, testing, Node.js, tooling, IDE...
 
 The article, published in January 2017 was quite popular, I got 150,000 page views during 3 days, thanks to Hacker News buzz.
 
@@ -12,5 +12,5 @@ The article was featured in the JavaScript newsletter [JavaScript Weekly](http:/
 
 The article has been translated in 2 languages by several contributors:
 
-* [Japanese](https://risingstars2016.js.org/ja/): "JavaScript ベスト・オブ・ザ・イヤー 2016"
-* [Chinese](https://risingstars2016.js.org/zh/): "2016 年崛起的 JS 项目"
+- [Japanese](https://risingstars2016.js.org/ja/): "JavaScript ベスト・オブ・ザ・イヤー 2016"
+- [Chinese](https://risingstars2016.js.org/zh/): "2016 年崛起的 JS 项目"
