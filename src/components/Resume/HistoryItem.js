@@ -2,9 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import Icon from "../../svg/Icon";
-import Markdown from "markdown-it";
-
-const md = new Markdown();
+import marked from "marked";
 
 const getDate = item => {
   const year = item.from === item.to ? item.from : `${item.from} ⇒ ${item.to}`;
@@ -42,14 +40,12 @@ const HistoryItem = ({ item }) => (
         {item.location}
       </Location>
     </header>
-    <h3 dangerouslySetInnerHTML={{ __html: md.render(item.title) }} />
-    {item.resp && (
-      <p dangerouslySetInnerHTML={{ __html: md.render(item.resp) }} />
-    )}
+    <h3 dangerouslySetInnerHTML={{ __html: marked(item.title) }} />
+    {item.resp && <p dangerouslySetInnerHTML={{ __html: marked(item.resp) }} />}
     {item.points && (
       <ul>
         {item.points.map((point, i) => (
-          <li key={i} dangerouslySetInnerHTML={{ __html: md.render(point) }} />
+          <li key={i} dangerouslySetInnerHTML={{ __html: marked(point) }} />
         ))}
       </ul>
     )}
