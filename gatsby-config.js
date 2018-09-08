@@ -14,6 +14,12 @@ module.exports = {
     },
     {
       resolve: `gatsby-transformer-remark`
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`
+      }
     }
   ]
 };
