@@ -1,28 +1,20 @@
 import React from "react";
-import { Link } from "react-router";
-import { prefixLink } from "gatsby-helpers";
 import Helmet from "react-helmet";
-import { config } from "config";
-import t from "../src/utils/typography";
-import Header from "../src/components/Header";
-import Footer from "../src/components/Footer";
-import Spritesheet from "../src/svg/Spritesheet";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Spritesheet from "../svg/Spritesheet";
 
 import "../css/main.css";
 import "../css/helpers.css";
 import "../css/print.css";
 
-module.exports = React.createClass({
-  propTypes() {
-    return {
-      children: React.PropTypes.any
-    };
-  },
+export default class Layout extends React.Component {
   render() {
+    const { data } = this.props;
     return (
       <div id="site-layout">
         <Helmet
-          title={config.siteTitle}
+          title={data.site.siteMetadata.title}
           meta={[
             {
               name: "description",
@@ -49,10 +41,21 @@ module.exports = React.createClass({
             maxWidth: 960
           }}
         >
-          {this.props.children}
+          {/* {withProps({ md: markdownBySlug })(this.props.children())} */}
+          {this.props.children()}
         </div>
         <Footer />
       </div>
     );
   }
-});
+}
+
+export const pageQuery = graphql`
+  query app {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;

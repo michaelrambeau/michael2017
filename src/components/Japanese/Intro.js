@@ -1,10 +1,10 @@
 import React from "react";
 import img from "../Resume/michael-2017-400x400.png";
 
-import overview from "./overview.md";
+// import overview from "./overview.md";
 import data from "../../data/core.json";
 
-const Intro = () => (
+const Intro = ({ overview }) => (
   <div className="main-document">
     <div style={{ display: "flex" }}>
       <div style={{ flexGrow: 1 }}>
@@ -25,7 +25,7 @@ const Intro = () => (
         <img src={img} width={150} style={{ margin: 0 }} />
       </div>
     </div>
-    <div dangerouslySetInnerHTML={{ __html: overview.body }} />
+    <div dangerouslySetInnerHTML={{ __html: overview }} />
   </div>
 );
 

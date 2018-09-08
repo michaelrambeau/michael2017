@@ -9,12 +9,15 @@ const Div = styled.div`
   font-family: sans-serif;
 `;
 
-const Japanese = () => (
-  <Div>
-    <Intro />
-    <History />
-    <Skillsheet />
-  </Div>
-);
+const Japanese = ({ md }) => {
+  const { history, bio, overview } = md;
+  return (
+    <Div>
+      <Intro overview={overview} />
+      <History history={history} />
+      <Skillsheet bio={bio} />
+    </Div>
+  );
+};
 
 export default Japanese;

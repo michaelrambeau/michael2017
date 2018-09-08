@@ -1,25 +1,21 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-
-import { prefixLink } from 'gatsby-helpers'
-import { TypographyStyle } from 'react-typography'
-import typography from './src/utils/typography'
-
-const BUILD_TIME = new Date().getTime()
+import React from "react";
+import Helmet from "react-helmet";
+import { TypographyStyle } from "react-typography";
+import typography from "./src/utils/typography";
 
 class Html extends React.Component {
-  render () {
-    const head = Helmet.rewind()
+  render() {
+    const head = Helmet.rewind();
 
-    let css
-    if (process.env.NODE_ENV === 'production') {
+    let css;
+    if (process.env.NODE_ENV === "production") {
       css = (
         <style
           dangerouslySetInnerHTML={{
-            __html: require('!raw!./public/styles.css')
+            __html: require("!raw!./public/styles.css")
           }}
         />
-      )
+      );
     }
 
     return (
@@ -36,16 +32,17 @@ class Html extends React.Component {
           <TypographyStyle typography={typography} />
           {css}
         </head>
+
         <body>
           <div
-            id="react-mount"
+            id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
-          <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          {this.props.postBodyComponents}
         </body>
       </html>
-    )
+    );
   }
 }
 
-export default Html
+export default Html;

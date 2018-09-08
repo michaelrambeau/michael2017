@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-import Bio from './Bio'
+import Bio from "./Bio";
 
-const Skillsheet = () => (
-  <div className="main-document" style={{ marginTop: '2rem' }}>
-    <Bio />
+const Skillsheet = ({ bio }) => (
+  <div className="main-document" style={{ marginTop: "2rem" }}>
+    <Bio bio={bio} />
   </div>
-)
+);
 
-export default Skillsheet
+export default Skillsheet;

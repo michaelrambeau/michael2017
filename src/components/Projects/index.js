@@ -1,15 +1,18 @@
-import React from 'react'
-import projects from './projects'
-import ProjectItem from './ProjectItem'
+import React from "react";
+import projects from "./projects";
+import ProjectItem from "./ProjectItem";
 
-const Projects = () => {
+const Projects = ({ md }) => {
   return (
     <div>
-      {projects.map(project =>
-        <ProjectItem project={project} key={project.id} />
-      )}
+      {projects.map(project => (
+        <ProjectItem
+          project={{ ...project, description: md[project.id] }}
+          key={project.id}
+        />
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

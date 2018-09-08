@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import t from "../../../utils/typography";
 
-import svg from "../../../../css/triangle.svg";
+import svg from "../../../css/triangle.svg";
 
 const Tag = styled.div`
   display: inline-block
@@ -43,7 +43,7 @@ const SkillCard = ({ title, skills, logo }) => (
       <Tag>{title}</Tag>
     </div>
     <Grid>
-      <MainCell dangerouslySetInnerHTML={{ __html: skills.body }} />
+      <MainCell dangerouslySetInnerHTML={{ __html: skills }} />
       <LogoCell>
         <Img src={logo} />
       </LogoCell>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import Link from "gatsby-link";
 import styled from "styled-components";
 import t from "../../utils/typography";
 // import SocialNav from "../core/SocialNav";
@@ -21,12 +21,8 @@ const StyledNavLink = styled(Link)`
   }
 `;
 
-const NavLink = ({ path, children }) => (
-  <StyledNavLink
-    activeClassName={"active"}
-    to={path}
-    onlyActiveOnIndex={path === "/"}
-  >
+const NavLink = ({ children, ...props }) => (
+  <StyledNavLink activeClassName={"active"} {...props}>
     {children}
   </StyledNavLink>
 );
@@ -88,10 +84,12 @@ const Header = () => {
             <Link to="/">Michael Rambeau</Link>
           </Title>
           <Nav>
-            <NavLink path="/">Home</NavLink>
-            <NavLink path="/projects/">Projects</NavLink>
-            <NavLink path="/resume/">Resume</NavLink>
-            <NavLink path="/japanese/">日本語</NavLink>
+            <NavLink exact to="/">
+              Home
+            </NavLink>
+            <NavLink to="/projects/">Projects</NavLink>
+            <NavLink to="/resume/">Resume</NavLink>
+            <NavLink to="/japanese/">日本語</NavLink>
           </Nav>
         </Navbar>
       </div>

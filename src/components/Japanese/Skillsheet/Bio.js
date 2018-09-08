@@ -1,11 +1,10 @@
-import React from 'react'
-import bio from './bio.md'
+import React from "react";
 
-const Bio = () => (
+const Bio = ({ bio }) => (
   <div>
     <h2>自己PR</h2>
-    <div dangerouslySetInnerHTML={{ __html: bio.body }} />
+    <div dangerouslySetInnerHTML={{ __html: bio }} />
   </div>
-)
+);
 
-export default Bio
+export default Bio;
