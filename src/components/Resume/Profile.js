@@ -14,7 +14,7 @@ const Grid = styled.div`
 
 const ProfileIcon = styled(Icon)`
   fill: #b58d10;
-  margin-right: 2px;
+  margin-right: 5px;
   width: 24px;
   height: 24px;
 `;
@@ -25,7 +25,7 @@ const Profile = () => (
       <h1>Full-stack web engineer</h1>
       <Grid>
         <ProfileIcon id="person" />
-        <p>Michael Rambeau, 41 years old, French</p>
+        <p>Michael Rambeau (ミカエル ランボー), 41 years old, French</p>
       </Grid>
       <Grid>
         <ProfileIcon id="home" />
@@ -37,6 +37,13 @@ const Profile = () => (
           <a className="email" href={`mailto:${data.email}`}>
             {data.email}
           </a>
+        </p>
+      </Grid>
+      <Grid>
+        <ProfileIcon id="github" />
+        <p>
+          Creator of <em>Best of JavaScript</em>:{" "}
+          <a href={`https://bestofjs.org/`}>https://bestofjs.org/</a>{" "}
         </p>
       </Grid>
     </div>

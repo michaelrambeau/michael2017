@@ -1,13 +1,13 @@
 const history = [
   {
     id: "PACTERA",
-    title: "React expert at [Pactera](https://en.pactera.com/)",
+    title: "React expert at [Pactera Japan](https://en.pactera.com/)",
     from: "2018",
     to: "Present",
     location: "Osaka, Japan",
     // resp: "React Expert",
     points: [
-      "Code Review and development about a Single-Page Application built with React",
+      "Code Review and development about a Single-Page Application built with React, for [Fast Retailing Co. Ltd](https://www.fastretailing.com/jp/about/) client",
       "Teaching good practices and patterns about ES6 and React to a team of offshore developers located in China"
     ]
   },

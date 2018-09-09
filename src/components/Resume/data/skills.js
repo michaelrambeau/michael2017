@@ -1,4 +1,4 @@
-const proficiencies = [
+const skills = [
   "Front-end: JavaScript ES6, React, Redux, Webpack, CSS, Sass",
   "Mobile: Responsive Web Design, web performance",
   "Unit testing: Jest, Mocha, Tape",
@@ -6,4 +6,4 @@ const proficiencies = [
   "Databases: MongoDB, Firebase"
 ];
 
-export default proficiencies;
+export default skills;

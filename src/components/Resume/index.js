@@ -1,16 +1,18 @@
 import React from "react";
 
-import Proficiencies from "./Proficiencies";
-import Experience from "./Experience";
 import Profile from "./Profile";
 import Languages from "./Languages";
+import Skills from "./Skills";
+import Experience from "./Experience";
 import Education from "./Education";
+import PageBreak from "./PageBreak";
 
 const Resume = () => (
   <div>
     <Profile />
     <Languages />
-    <Proficiencies />
+    <Skills />
+    <PageBreak />
     <Experience />
     <Education />
   </div>

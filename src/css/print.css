@@ -1,3 +1,7 @@
+.break-after {
+  /* hide the page break <hr /> */
+  visibility: hidden;
+}
 @media print {
   .hidden-print {
     display: none;
