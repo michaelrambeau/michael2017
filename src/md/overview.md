@@ -10,12 +10,12 @@
 
 ### 職歴
 
-- 2001年～ 2004年 フランス・パリ Lotus Notes 開発
-- 2004年～ 2010年 フランス・トゥールーズ Lotus Notes - Domino イントラネット WEB 開発
-- 2011年～ 2014年 大阪 Brastel Remit WEBサイト担当者
-- 2014年～ 2016年 大阪 ファーストサーバ株式会社 WEB開発
-- 2016年～ 2018年 京都 Shipandco WEBアプリケーション Full-stack WEB開発
-- 2018年～現在 京都 React Expert
+- 2001年～2004年 フランス・パリ Lotus Notes 開発
+- 2004年～2010年 フランス・トゥールーズ Lotus Notes - Domino イントラネット WEB 開発
+- 2011年～2014年 大阪 Brastel Remit WEBサイト担当者
+- 2014年～2016年 大阪 ファーストサーバ株式会社 WEB開発
+- 2016年～2018年 京都 Shipandco WEBアプリケーション Full-stack WEB開発
+- 2018年～現在 大阪 React Expert at Pactera Technology Japan
 
 ### 経験があるスキル
 

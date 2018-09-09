@@ -16,6 +16,6 @@ HTML, JavaScript ES6, React, Redux, CSS, Responsive Web Design の仕事をし�
 
 2018年に[Pactera](http://jp.pactera.com/ja)に入社しました。
 Reactで作られたWEBアプリケーションについて、Code Reviewと開発をしています。
-チームメンバーに、JavaScript, ES6, とReactについてGood Practicesを教えました。
+チームメンバーに、JavaScript,ES6とReactについてGood Practicesを指導しました。
 
 最先端のウェブテクノロジーに関心があるので、open source [Best of JavaScript](https://bestofjs.org/) という WEB プリケーションを作りました。

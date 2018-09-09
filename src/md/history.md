@@ -37,8 +37,8 @@
 【トピックス】
 
 - XHTML, CSS, JavaScript, XSL で WEB サイトを作成。
-- デザインチームとシステムチームの中心としてコーディネーション。
-- モバイルユーザと「Responsive Web Design」について検討と提案。
+- デザインチームとシステムチームの中心として相互コーディネーション​
+- モバイルユーザと「Responsive Web Design」について検討と提案
 
 ### 【勤務先会社名】ファーストサーバ (2014年12月 ~ 2016年06月)
 
@@ -50,8 +50,8 @@
 
 【トピックス】
 
-- WEB登録プロセスの問題を分析して、改善を提案。
-- Responsive Web Design で、Single Page Application を設計、開発。
+- WEB登録プロセスの問題を分析、改善を提案。
+- Responsive Web Designで、Single Page Application を設計、開発。
 - 最先端の WEB テクノロジーで (React, Redux, Webpack)、本番のアップリケシオンをりりーす。
 - チームメンバーの技術を高めるように、勉強会を行いました。
 
@@ -63,15 +63,15 @@
 
 【業務内容】shipandco.com WEB アプリケーション開発
 
-### 【勤務先会社名】Pactera Technology Japan (2018年04月 ~ 在籍中)
+### 【勤務先会社名】Pactera Technology Japan (2018年04月 ~ 現職中)
 
 【雇用形態】正社員
 
-【事業内容】IT サビース
+【事業内容】IT サービス
 
 【業務内容】React開発
 
 【トピックス】
 
-- Reactで作られたWEBアプリケーションについて、Code Reviewと開発。
-- チームメンバーに、JavaScript,ES6,とReactについてGood Practicesを教えました。
+- Reactで作られたWEBアプリケーションについて、Code Reviewと開発
+- チームメンバーに、JavaScript,ES6とReactについてGood Practicesを指導
