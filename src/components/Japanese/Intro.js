@@ -3,14 +3,14 @@ import img from "../Resume/michael-2017-400x400.png";
 
 // import overview from "./overview.md";
 import data from "../../data/core.json";
+import PageBreak from "../Resume/PageBreak";
 
 const Intro = ({ overview }) => (
   <div className="main-document">
     <div style={{ display: "flex" }}>
       <div style={{ flexGrow: 1 }}>
         <h1>履歴書 / プロフィール</h1>
-        <p>Michael Rambeau ミカエル　ランボー</p>
-        <p>WEB開発エンジニア41歳</p>
+        <p>【名前】Michael Rambeau ミカエル　ランボー (41歳)</p>
         <p>
           【WEBサイト】
           <a href={data.website}>{data.website}</a>

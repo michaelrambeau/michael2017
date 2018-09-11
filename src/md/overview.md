@@ -19,9 +19,9 @@
 
 ### 経験があるスキル
 
-- [ 言語、ツール ] HTML5, JavaScript ES6, Node.js, CSS Flexbox, XSL- XML, Lotus Notes Domino
+- [ 言語、ツール ] HTML5, JavaScript ES6, Node.js, CSS Flexbox, XSL- XML
 - [JavaScript ライブラリ ] React, Redux, Webpack, Jest
 - [ モバイル ] Responsive Web Design, React Native, Ionic framework
 - [ WEB フレームワーク ] Express, Meteor, Ruby on Rails
 - [ バージョン管理システム ] Git, GitHub
-- [ DB ] MongoDB
+- [ DB ] MongoDB, Firebase

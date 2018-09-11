@@ -1,19 +1,27 @@
-.break-after {
-  /* hide the page break <hr /> */
-  visibility: hidden;
-}
 @media print {
   .hidden-print {
     display: none;
   }
   .break-after {
-    page-break-after: always;
+    page-break-before: always;
+    margin: 0;
+    background-color: white;
   }
   #site-content {
     padding: 0;
   }
   .main-document {
     box-shadow: none;
+  }
+  .japanese h3 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  .japanese li {
+    margin-bottom: 0.2rem;
+  }
+  .japanese p {
+    margin-bottom: 0.2rem;
   }
   body {
     background-color: #fff;

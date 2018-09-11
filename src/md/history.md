@@ -61,7 +61,7 @@
 
 【事業内容】オンラインストア
 
-【業務内容】shipandco.com WEB アプリケーション開発
+【業務内容】SaaS shipandco.com WEBアプリケーション開発
 
 ### 【勤務先会社名】Pactera Technology Japan (2018年04月 ~ 現職中)
 
@@ -69,9 +69,9 @@
 
 【事業内容】IT サービス
 
-【業務内容】React開発
+【業務内容】Front-end 開発
 
 【トピックス】
 
 - Reactで作られたWEBアプリケーションについて、Code Reviewと開発
-- チームメンバーに、JavaScript,ES6とReactについてGood Practicesを指導
+- JavaScript,ES6とReactについてチームメンバーにGood Practicesを指導
