@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 import social from "./social";
 import Icon from "../../svg/Icon";
 
@@ -16,9 +15,9 @@ const SocialNav = () => (
 const SocialLink = ({ id }) => {
   const { url } = social[id];
   return (
-    <Link to={url} target="_blank">
+    <a href={url} target="_blank">
       <Icon id={id} className="svg-icon" />
-    </Link>
+    </a>
   );
 };
 
