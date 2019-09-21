@@ -63,7 +63,7 @@
 
 【業務内容】SaaS shipandco.com WEBアプリケーション開発
 
-### 【勤務先会社名】Pactera Technology Japan (2018年04月 ~ 現職中)
+### 【勤務先会社名】Pactera Technology Japan (2018年04月 ~ 2018年12月)
 
 【雇用形態】正社員
 
@@ -75,3 +75,15 @@
 
 - Reactで作られたWEBアプリケーションについて、Code Reviewと開発
 - JavaScript,ES6とReactについてチームメンバーにGood Practicesを指導
+
+### 【勤務先会社名】Medmain (2019年01月 ~ 現職中)
+
+【雇用形態】正社員
+
+【事業内容】Medicine
+
+【業務内容】Front-end 開発
+
+【トピックス】
+
+- Designing, developing and maintaining web applications made with React 

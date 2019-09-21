@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import SocialNav from "../SocialNav";
-import packageJson from "../../../package.json";
 
 const StyledFooter = styled.footer`
   padding: 2rem 1rem;
@@ -22,9 +21,7 @@ const Footer = () => (
   <StyledFooter className={`hidden-print`}>
     <div className="container">
       <SocialNav />
-      <div>
-        v{packageJson.version} - Last update: {new Date().toDateString()}
-      </div>
+      <div>Last update: September 2019</div>
     </div>
   </StyledFooter>
 );

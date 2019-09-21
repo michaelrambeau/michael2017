@@ -1,5 +1,15 @@
 const history = [
   {
+    id: "MEDMAIN",
+    title: "Web development at [Medmain](https://en.medmain.net/)",
+    from: "2019",
+    to: "Present",
+    location: "Osaka, Japan (remote)",
+    points: [
+      "Designing, developing and maintaining web applications made with React",
+    ]
+  },
+  {
     id: "PACTERA",
     title: "React expert at [Pactera Japan](https://en.pactera.com/)",
     from: "2018",
