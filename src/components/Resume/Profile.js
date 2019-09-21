@@ -19,13 +19,16 @@ const ProfileIcon = styled(Icon)`
   height: 24px;
 `;
 
+const today = new Date()
+const age = today.getFullYear() - 1977
+
 const Profile = () => (
   <div style={{ display: "flex" }}>
     <div style={{ flexGrow: 1 }}>
       <h1>Full-stack web engineer</h1>
       <Grid>
         <ProfileIcon id="person" />
-        <p>Michael Rambeau (ミカエル ランボー), 41 years old, French</p>
+        <p>Michael Rambeau (ミカエル ランボー), {age} years old, French</p>
       </Grid>
       <Grid>
         <ProfileIcon id="home" />

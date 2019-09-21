@@ -2,7 +2,7 @@ const projects = [
   {
     id: "bestofjs",
     url: "https://bestofjs.org/",
-    github: "https://github.com/michaelrambeau/bestofjs-webui",
+    github: "https://github.com/bestofjs/bestofjs-webui",
     title: "Best of JavaScript"
   },
   {

@@ -7,6 +7,7 @@ const history = [
     location: "Osaka, Japan (remote)",
     points: [
       "Designing, developing and maintaining web applications made with React",
+      "Building components to let pathologists annotate scans from hospitals in order to train AI models"
     ]
   },
   {
